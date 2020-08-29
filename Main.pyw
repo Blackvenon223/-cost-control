@@ -137,7 +137,6 @@ class MoneyOutputWindow(QtWidgets.QWidget):
 if __name__ == "__main__":
 	import sys
 	app = QtWidgets.QApplication(sys.argv)
-	app.setStyleSheet(open("styles.qss","r").read())
 	window = MainWindow()
 	window.setWindowTitle("контроль расходов")
 	window.setLayout(window.vbox)
